@@ -1,0 +1,132 @@
+header, .ListName, .form p {
+    font-family: "Source Sans Pro";
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #008080;
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header p, .ListName p, .form {
+    margin-left: 20px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.form p {
+    color: #008080;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.ListName {
+    background-color: #00b3b3;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.ListName input[type=text] {
+    background-color: #00b3b3;
+    width: 1000px;
+    color: #f7f7f7;
+    text-align: left;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    margin-left: 20px;
+    border: 1px solid #00b3b3;
+}
+
+.form input[type=text], form input[type=date] {
+    background-color: #f7f7f7;
+    width: 440px;
+    height: 30px;
+    color: #008080;
+    text-align: left;
+    font-family: "DroidSerif";
+    font-size: 18px;
+    border: 2px solid #008080;
+}
+
+.form input[type=date] {
+    width: 340px;
+    color: #d3d3d3;
+    font-style: italic;
+}
+
+.form input[type=submit] {
+    background-color: #00b3b3;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #00b3b3;
+    font-family: "Source Sans Pro";
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/*TEXT PLACEHOLDER TEXT*/
+.form input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #d3d3d3;
+    font-style: italic;
+    text-align: left;
+    font-family: "DroidSerif";
+    font-size: 18px;
+}
+
+.form input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #d3d3d3;
+    font-style: italic;
+    text-align: left;
+    font-family: "DroidSerif";
+    font-size: 18px;
+}
+
+.form input[type=text]::-ms-input-placeholder { /* IE 10+ */
+    color: #d3d3d3;
+    font-style: italic;
+    text-align: left;
+    font-family: "DroidSerif";
+    font-size: 18px;
+}
+
+.form input[type=text]::-moz-placeholder { /* Firefox 18- */
+    color: #d3d3d3;
+    font-style: italic;
+    text-align: left;
+    font-family: "DroidSerif";
+    font-size: 18px;
+}
+
+/*TEXT PLACEHOLDER TEXT*/
+.ListName input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ebebeb;
+    font-style: italic;
+}
+
+.ListName input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #f7f7f7;
+    font-style: italic;
+}
+
+.ListName input[type=text]::-ms-input-placeholder { /* IE 10+ */
+    color: #f7f7f7;
+    font-style: italic;
+}
+
+.ListName input[type=text]::-moz-placeholder { /* Firefox 18- */
+    color: #f7f7f7;
+    font-style: italic;
+}
